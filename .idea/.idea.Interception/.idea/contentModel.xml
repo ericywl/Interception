@@ -13,17 +13,11 @@
           </e>
         </e>
         <e p="Scripts" t="Include">
-          <e p="Turn" t="Include">
-            <e p="Turn_Begin.cs" t="Include" />
-            <e p="Turn_BlackOut.cs" t="Include" />
-            <e p="Turn_CheckWin.cs" t="Include" />
-            <e p="Turn_Comms.cs" t="Include" />
-            <e p="Turn_QueueActions.cs" t="Include" />
-            <e p="Turn_SeeIntercepts.cs" t="Include" />
-            <e p="Turn_Shuffle.cs" t="Include" />
-            <e p="TurnScript.cs" t="Include" />
-          </e>
-          <e p="TurnBasedSystem.cs" t="Include" />
+          <e p="Person.cs" t="Include" />
+          <e p="Spy.cs" t="Include" />
+          <e p="Spymaster.cs" t="Include" />
+          <e p="SystemGame.cs" t="Include" />
+          <e p="SystemTurn.cs" t="Include" />
         </e>
       </e>
       <e p="Interception.sln" t="IncludeFlat" />
