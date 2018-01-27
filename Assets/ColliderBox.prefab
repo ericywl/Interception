@@ -19,7 +19,6 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4637981742245070}
-  - component: {fileID: 33371900660712000}
   - component: {fileID: 65819682739172158}
   - component: {fileID: 23475403304186586}
   m_Layer: 0
@@ -76,13 +75,6 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
---- !u!33 &33371900660712000
-MeshFilter:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1218024647351730}
-  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!65 &65819682739172158
 BoxCollider:
   m_ObjectHideFlags: 1

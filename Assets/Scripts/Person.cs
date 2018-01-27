@@ -1,26 +1,26 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 
-public class Person : MonoBehaviour {
+namespace Assets.Scripts {
+	public class Person : MonoBehaviour {
 
-	private int p1Suspicion;
-	private int p2Suspicion;
-	private Vector3 location;
+		private int p1Suspicion;
+		private int p2Suspicion;
+		private Vector3 location;
 
-	public void AddP1Suspicion() {
-		p1Suspicion++;
-	}
+		public void AddP1Suspicion() {
+			p1Suspicion++;
+		}
 
-	public int GetP1Suspicion() {
-		return p1Suspicion;
-	}
+		public int GetP1Suspicion() {
+			return p1Suspicion;
+		}
 
-	public void AddP2Suspicion() {
-		p2Suspicion++;
-	}
+		public void AddP2Suspicion() {
+			p2Suspicion++;
+		}
 
-	public int GetP2Suspicion() {
-		return p2Suspicion;
+		public int GetP2Suspicion() {
+			return p2Suspicion;
+		}
 	}
 }

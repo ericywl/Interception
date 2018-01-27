@@ -9,7 +9,6 @@ namespace Assets.Scripts {
 		public float width = 0.15f;
 		public BoxCollider col;
 
-		// Use this for initialization
 		void Start () {
 			line = gameObject.GetComponent<LineRenderer> ();
 			line.SetPosition(0, start);
